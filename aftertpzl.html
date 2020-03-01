@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/after.css">
+		<!--<script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>-->
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/after.js"></script>
+	</head>
+
+	<body>
+		<input type="text" id="zhi" value="tpzl" style="display: none;">
+		<button class="add box">+添加</button>
+		<button class="fanhui box" style="display:none">返回</button>
+		<table>
+			<thead>
+				<th>标题</th>
+				<th>操作</th>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div class="addlist" style="display:none">
+			<form>
+				<p>
+					<input type="text" name="id" id="id" style="display: none;">
+				</p>
+				<p>
+					<label for="newstitle"><b>*</b>标题:</label>
+					<input type="text" name="newstitle" id="newstitle">
+				</p>
+				<p>
+					<label for="imgurl"><b>*</b>图片:</label>
+					<input type="text" name="imgurl" id="imgurl">
+				</p>
+				<p>
+					<label for="newscontent"><b>*</b>内容:</label>
+					<textarea type="text" name="newscontent" id="newscontent"></textarea>
+				</p>
+				<input type="button" name="submit" id="submit" value="提交">
+			</form>
+		</div>
+	</body>
+
+</html>

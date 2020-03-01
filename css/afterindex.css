@@ -1,0 +1,100 @@
+.accordion{
+	background:url(../img/sence.png);
+	overflow:hidden;
+}
+.accordion .accordion-header{
+	color: #403231;
+	background:none;
+	border-top-width:0;
+	cursor:pointer;
+}
+
+.accordion-noborder .accordion-header{
+	border-width:0 0 0 0;
+}
+.accordion-noborder .accordion-body{
+	border-width:0;
+}
+.layout-panel{
+	position:absolute;
+}
+.layout-split-west{
+	border-right:1px solid red;
+}
+.panel-header{
+	height: 15px;
+	padding:5px;
+	line-height:15px;
+	color:white;
+	font-weight:100;
+	font-size:12px;
+	background:url(../img/sence.jpg);
+	position:relative;
+}
+/*文件夹*/
+.panel-with-icon{
+	padding-left:18px;
+}
+.panel-icon{
+	position:absolute;
+	left:5px;
+	top:4px;
+	width:16px;
+	height:16px;
+}
+/*打开关闭*/
+.panel-tool{
+	position:absolute;
+	right:5px;
+	top:4px;
+}
+.panel-tool div{
+	display:block;
+	float:right;
+	width:16px;
+	height:16px;
+	margin-left:2px;
+	cursor:pointer;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+.panel-tool-collapse{
+	background:url('../img/panel_tool_collapse.gif') no-repeat;
+}
+.panel-tool-expand{
+	background:url('../img/panel_tool_expand.gif') no-repeat;
+}
+.tabs-header{
+	background: url(../img/sence.jpg);
+	border-bottom:0px;
+	position:relative;
+	overflow:hidden;
+	padding:0px;
+}
+
+.tabs{
+	list-style-type:none;
+	height:25px;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	width:5000px;
+
+}
+.tabs li{
+	display: none;
+}
+#home{padding:20px;overflow:hidden;background: url(../img/sence.png);}
+*{font-size:15px; font-family:Tahoma,Verdana,仿宋}
+a{ color:Black; text-decoration:none;}
+.head a{color:White;text-decoration:underline;}
+
+.easyui-accordion ul{list-style-type:none;margin:0px; padding:10px;}
+.easyui-accordion ul li{ padding:0px;}
+.easyui-accordion ul li a{line-height:24px;}
+.easyui-accordion ul li div{margin:2px 0px;padding-left:10px;padding-top:2px;}
+.easyui-accordion ul li div.hover{border:1px dashed #403231; background:none;cursor:pointer;}
+.easyui-accordion ul li div.hover a{color:#403231;font-weight:bold;}
+.easyui-accordion ul li div.selected{border:1px dashed #403231; background:none;cursor:default;}
+.easyui-accordion ul li div.selected a{color:#403231; font-weight:bold;}
+.icon-sys{ background:url(../img/directory.png) no-repeat;}

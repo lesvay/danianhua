@@ -1,0 +1,72 @@
+body{
+	background: url(../img/sence.png);
+	font-family: "仿宋";
+}
+.box{
+	border: 0;
+	position: absolute;
+	width: 80px;
+	height:40px;
+	font-size:18px;
+	color: white;
+	font-family: "仿宋";
+	background:url(../img/sence.jpg);
+	outline: none;
+	right: 10px;
+}
+#submit{
+	border: 0;
+	position: absolute;
+	width: 80px;
+	height:40px;
+	font-size:18px;
+	color: white;
+	font-family: "仿宋";
+	background:url(../img/sence.jpg);
+	outline: none;
+	left:44%;
+}
+
+.box1{
+	border: 0;
+	position: absolute;
+	width: 60px;
+	height:30px;
+	font-size:15px;
+	color: #403231;
+	font-family: "仿宋";
+	outline: none;
+	position: inherit;
+	background: none;
+}
+.box:hover,.box:active,
+.box1:hover,.box1:active,
+#submit:hover,#submit:active{
+	font-weight: bold;
+	cursor:pointer;
+}
+table{
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	left: 10%;
+}
+table tbody {
+	display:block;
+	height:100%;
+	overflow-y:scroll;
+}
+table tbody::-webkit-scrollbar {display:none}
+table thead, tbody tr {
+display:table;
+width:100%;
+table-layout:fixed;
+height: 30px;
+text-align: center;
+}
+
+form{position:absolute;width:80%;height: 90%;left: 10%;}  
+form fieldset{border:0;align:center;}  
+form label{display:inline-block;width:60px;text-align:right;}  
+input{width:80%;height:30px;}  
+form textarea{width:80%; height:200px}

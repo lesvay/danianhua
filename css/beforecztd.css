@@ -1,0 +1,253 @@
+body{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: "仿宋";
+}
+.box {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.box:hover {
+	cursor: move;
+}
+
+.box.is-dragging {
+	opacity: 0.7;
+}
+
+.box-1 {
+	width: auto;
+	height: auto;
+}
+.img{
+	width: auto;
+	height: auto;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.roll{
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background:url(../img/sence.jpg);
+	overflow: hidden;
+}
+
+.content1{
+	overflow: hidden;
+	position: relative;
+	padding:0;
+	margin: 5% 5% 5% 5%;
+	border: 0;
+	background:url(../img/sence.png);
+}
+#content-1{
+	width: 90%;
+	height: 98%;
+}
+.roll2{
+	position: absolute;
+	width: 10%;
+	height: 100%;
+	padding: 0;
+	margin-left: 9%;
+	border: 0;
+	background:url(../img/sence.jpg);
+	overflow: hidden;
+}
+.content2{
+	overflow: hidden;
+	position: relative;
+	padding:0;
+	margin: 5% 0 5% 5%;
+	border: 0;
+	background:url(../img/sence.png);
+}
+#content-2{
+	width: 90%;
+	height: 98%;
+}
+.drag{
+	position: absolute;
+	width: 81%;
+	height: 100%;
+	padding: 0;
+	margin-left: 19%;
+	border: 0;
+	background:url(../img/sence.png);
+	overflow: hidden;
+}
+.art{
+	position: absolute;
+	width: 88%;
+	height: 100%;
+	padding: 0;
+	margin-left: 2%;
+	border: 0;
+	background-color:white;
+}
+.crimson{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	padding: 0;
+	top: 10%;
+	right: 3%;
+	border: 0;
+	background:url(../img/sence.png);
+	border-color: #403231;
+	border:1px solid;
+}
+.white{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	padding: 0;
+	top: 18%;
+	right: 3%;
+	border: 0;
+	background:url(../img/bg3.jpg);
+}
+.dimgrey{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	padding: 0;
+	top: 26%;
+	right: 3%;
+	border: 0;
+	background:url(../img/sence.jpg);
+}
+.cornflowerblue{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	padding: 0;
+	top: 34%;
+	right: 3%;
+	border: 0;
+	background:url(../img/bg1.jpg);
+}
+.gold{
+	position: absolute;
+	width: 4%;
+	height: 4%;
+	padding: 0;
+	top: 42%;
+	right: 3%;
+	border: 0;
+	background:url(../img/bg2.jpg);
+}
+.bgfont{
+	position: absolute;
+	padding: 0;
+	top: 4%;
+	right: 1%;
+	border: 0;
+	font-size:10px;
+}
+.bgbig{
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	bottom: 10%;
+	top: 10%;
+	right: 5%;
+	left: 5%;
+	font-size:15px;
+	color: #403231;
+	background:url(../img/sence.png);
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}
+.bgsmall{
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	bottom: 10%;
+	top: 10%;
+	right: 5%;
+	left: 5%;
+	font-size:15px;
+	color: #403231;
+	background:url(../img/sence.png);
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}
+.bgdel{
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	bottom: 10%;
+	top: 10%;
+	right: 5%;
+	left: 5%;
+	font-size:15px;
+	color: #403231;
+	background:url(../img/sence.png);
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}
+.bobig{
+	position: absolute;
+	width: 6%;
+	height: 6%;
+	padding: 0;
+	bottom: 20%;
+	right: 2%;
+	background:url(../img/sence.jpg);
+}
+.bosmall{
+	position: absolute;
+	width: 6%;
+	height: 6%;
+	padding: 0;
+	bottom: 12%;
+	right: 2%;
+	background:url(../img/sence.jpg);
+}
+.bodel{
+	position: absolute;
+	width: 6%;
+	height: 6%;
+	padding: 0;
+	bottom: 28%;
+	right: 2%;
+	background:url(../img/sence.jpg);
+}
+.bghome{
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	bottom: 10%;
+	top: 10%;
+	right: 5%;
+	left: 5%;
+	font-size:15px;
+	color: #403231;
+	background:url(../img/sence.png);
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}
+
+.bohome{
+	position: absolute;
+	width: 6%;
+	height: 6%;
+	padding: 0;
+	bottom: 4%;
+	right: 2%;
+	background:url(../img/sence.jpg);
+}

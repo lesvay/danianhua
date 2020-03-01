@@ -1,0 +1,74 @@
+.jumpto-cotainer {
+  position: relative;
+}
+.jumpto-subnav {
+  position: fixed !important;
+  left: auto;
+  top: 25px;
+  margin-left: -200px;
+  width: 100px;
+  background:url(../img/sence.png);
+
+}
+
+.jumpto-subnav .jumpto-second {
+  display: none;
+}
+
+.jumpto-subnav.fixed {
+  position: fixed !important;
+  left: auto;
+  top: 25px;
+  margin-left: -200px;
+  
+}
+
+.jumpto-subnav.fixed.bottom {
+  top: auto;
+  bottom: 0;
+  position: absolute !important;
+}
+
+.jumpto-subnav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  overflow:auto;
+}
+.jumpto-subnav ul::-webkit-scrollbar {display:none}
+
+.jumpto-subnav ul li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.jumpto-subnav ul li a {
+ padding:10px;
+ display: block;
+ box-sizing: border-box; 
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ color: #403231;
+ font-size: 12px;
+ font-weight: 100;
+}
+
+.jumpto-subnav ul li a:hover, .jumpto-subnav ul li a.active{
+  font-weight:600;
+}
+.jumpto-subnav ul > li > ul > li > a{
+  padding-left: 15px;
+}
+
+.jumpto-title, .jumpto-close a{
+  background:url(../img/sence.jpg);
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  display: block;
+}

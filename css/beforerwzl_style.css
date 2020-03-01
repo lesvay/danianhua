@@ -1,0 +1,101 @@
+/* Custom Stylesheet */
+body, html {
+	font-family: "楷体";
+    margin: 0;
+ 	border: 0;
+  	padding: 0;
+    -webkit-font-smoothing: antialiased;
+    background: url(../img/rwzl_sence.jpg) no-repeat fixed;
+    background-size:100%;
+    text-align: center;
+}
+
+body, .main, html {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  
+}
+
+.header{
+  color: #403231;
+  top: 0;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.img{
+	float: right;
+	width: 300PX;
+	height: 200PX;
+}
+
+/* ALL DEMO */
+.menu, .header, .nav-top {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 10;
+}
+
+.page_container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.page_container h2{
+  padding-bottom: 15px;
+  text-align: left;
+  color: #403231;
+  font-weight:600;
+  font-size: 30px;
+  	border-top: 1px solid rgba(0,0,0,0.15);
+}
+
+.page_container p{
+
+  color:#403231;
+  font-size: 18px;
+  line-height: 180%;
+  text-align: left;
+  font-weight:500;
+}
+.lclouds{
+	left: 15%;
+	width: 35%;
+	top: 0;
+	position:absolute;
+}
+.rclouds{
+	right: 15%;
+	width: 35%;
+	top:0;
+	position:absolute;
+}
+.tup{
+	color: white;
+	position: fixed;
+	width: 8%;
+	height: 4%;
+	padding: 0;
+	bottom: 10%;
+	left: 2.5%;
+	background:url(../img/sence.jpg);
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}
+.shouy{
+	color: white;
+	position: fixed;
+	width: 8%;
+	height: 4%;
+	padding: 0;
+	bottom: 4%;
+	left: 2.5%;
+	background:url(../img/sence.jpg);
+	justify-content:center;
+	display:flex;
+	align-items:center;
+}

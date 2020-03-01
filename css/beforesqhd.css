@@ -1,0 +1,175 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a,
+img {
+	border: 0;
+}
+
+body {
+	background: url(../img/sence.png);
+	font-family:"仿宋";
+}
+
+#lxf-box {
+	position: relative;
+	width: 1160px;
+	margin: 0 auto;
+	margin-top: 3%;
+}
+
+#lxf-box a {
+	display: block;
+	width: 280px;
+	text-decoration:none;
+}
+
+#lxf-box li {
+	position: absolute;
+	text-align: center;
+	left: 0px;
+	top: 0;
+	width: 280px;
+	border: 5px solid #da251c;
+	background: url(../img/sence.jpg);
+}
+
+#lxf-box li {
+	-webkit-transition: all .7s ease-out .1s;
+	-moz-transition: all .7s ease-out;
+	-o-transition: all .7s ease-out .1s;
+	transition: all .7s ease-out .1s
+}
+#lxf-box li img{
+	max-width: 280px;
+}
+#lxf-box img {
+	display: block;
+	border: 0;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+#lxf-box img:hover,#lxf-box img:active{
+	cursor:pointer
+}
+#lxf-box strong {
+	display: block;
+	font-size: 16px;
+	color: white;
+	font-family: "仿宋";
+	height: 20px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	font-weight: 100;
+}
+#lxf-box strong:hover,#lxf-box strong:active{
+	font-weight: bold; 
+}
+.top{
+	position: absolute;
+	background: url(../img/sence.jpg);
+	width: 100%;
+	height: 5%;
+	top: 0;
+}
+.detail{
+	position: absolute;
+	top: 8%;
+	width: 100%;
+	text-align: center;
+}
+.detailtital{
+	top: 8%;
+	font-size: 40px;
+	padding-bottom: 20px;
+}
+.detailauthor,.detailindu{
+	padding-bottom: 20px;
+}
+
+.detailimg{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	border: 5px solid #da251c;
+	margin-bottom: 30px;
+	max-width: 80%;
+}
+.form{
+	position: absolute;
+	height: 50%;
+}
+.fan{
+	position: absolute;
+	top: 2%;
+	color: white;
+	font-size: 20px;
+	left: 5%;
+}
+.my{
+	position: absolute;
+	top: 1%;
+	color: white;
+	font-size: 20px;
+	right: 3%;
+}
+.my:hover,.my:active,
+.fan:hover,.fan:active{
+	font-weight: bold;
+}
+/*设置显示面板*/
+#showWords{
+	position: fixed;
+    width: 100%;
+    height: 85%;
+    font-size: 20px;
+    top: 5%;
+    bottom:10%;
+}
+
+/*设置输入框*/
+#word{
+	font-family: "仿宋";
+    display: block;
+    width: 70%;
+    height: 2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+    font-size: 1.1em;
+    color:#403231;
+    position: fixed;
+    bottom:10px;
+    left:10%;
+}
+#actions{
+    text-align: center;
+    position: fixed;
+    bottom:10px;
+    right:10%;
+}
+
+/*设置按钮*/
+#actions button{
+	font-family: "仿宋";
+    background:url(../img/sence.jpg);
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    border: none;
+    color: white;
+}
+
+#actions button:hover,#actions button:active{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.moveWord{
+    font-size: 1.1em;
+    position: absolute;
+}

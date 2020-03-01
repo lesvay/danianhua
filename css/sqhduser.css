@@ -1,0 +1,59 @@
+form {
+	position: absolute;
+	width: 80%;
+	height: 90%;
+	left: 10%;
+	top: 10%;
+}
+
+form fieldset {
+	border: 0;
+	margin: 20px;
+	align: center;
+}
+
+form label {
+	display: inline-block;
+	width: 60px;
+	text-align: right;
+}
+
+input {
+	width: 80%;
+	height: 30px;
+	margin-top: 20px;
+}
+
+form textarea {
+	width: 80%;
+	height: 200px;
+	margin-top: 20px;
+}
+#submit{
+	border: 0;
+	position: absolute;
+	width: 80px;
+	height:40px;
+	font-size:18px;
+	color: white;
+	font-family: "仿宋";
+	background:url(../img/sence.jpg);
+	outline: none;
+	left:44%;
+}
+#submit:hover,#submit:active{
+	font-weight: bold;
+	cursor:pointer;
+}
+.zuopin{
+	position: absolute;
+	top: 90%;
+	left: 3%;
+}
+.thumb-image{
+	border: 3px solid;
+	border-color: #da251c;
+	width: 10%; 
+	margin-left:10% ;
+	margin-top:5px ;
+}

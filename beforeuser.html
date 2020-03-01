@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>年画 互动</title>
+		<script src="js/jquery.js"></script>
+		<link rel="stylesheet" href="css/beforesqhd.css">
+		<link rel="stylesheet" href="css/sqhduser.css">
+		<script src='js/beforeuser.js'></script>
+	</head>
+
+	<body>
+		<div class="top">
+			<a href="beforesqhd.html"><div class="fan"><--返回</div></a>
+		</div>
+		<div class="addlist">
+			<form>
+				<p>
+					<input type="text" name="id" id="id" style="display: none;">
+				</p>
+				<p>
+					<label for="title"><b>*</b>标题:</label>
+					<input type="text" name="title" id="title">
+				</p>
+				<p>
+					<label for="imgurl"><b>*</b>图片:</label>
+					<input type="file" name="imgurl" id="imgurl" accept="image/gif, image/jpeg ,image/png">
+					<div id="image-holder"> </div>
+				</p>
+				<p>
+					<label for="content"><b>*</b>描述:</label>
+					<textarea type="text" name="content" id="content"></textarea>
+				</p>
+				<input type="button" name="submit" id="submit" value="提交">
+			</form>
+		</div>
+		<div class="zuopin">
+		<h2>历史上传</h2>
+		<ul id="lxf-box"></ul>
+		</div>
+		<script src='js/beforesqhd.js'></script>
+	</body>
+
+</html>

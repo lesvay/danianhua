@@ -1,0 +1,10 @@
+$(document).ready(function(){
+	$(".singup").click(function(){
+		if($(".username").val()=="admin"&&$(".mima").val()=="admin"){
+			window.location.href="afterindex.html";
+		}
+		else{
+			alert("用户名或密码错误！");
+		}
+	})
+});

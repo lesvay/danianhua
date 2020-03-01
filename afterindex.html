@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head id="Head1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8">
+		<title>大年画——后台管理系统</title>
+		<link rel="stylesheet" type="text/css" href="css/afterindex.css" />
+		<!--<script src="http://code.jquery.com/jquery-1.4.2.min.js"></script>-->
+		<script src="js/afterjquery.js"></script>
+		<script type="text/javascript" src="js/jquery.easyui.js"></script>
+		<script type="text/javascript" src='js/outlook2.js'>
+		</script>
+		<script type="text/javascript">
+			var _menus = {
+				"menus": [{
+					"menuid": "1",
+					"icon": "icon-sys",
+					"menuname": "年画传承",
+					"menus": [{
+							"menuname": "人物专栏",
+							"url": "afterrwzl.html"
+						},
+						{
+							"menuname": "图片专栏",
+							"url": "aftertpzl.html"
+						},
+					]
+				}, {
+					"menuid": "56",
+					"icon": "icon-sys",
+					"menuname": "年画互动",
+					"menus": [
+						{
+							"menuname": "上传审核",
+							"url": "afterscsh.html"
+						},
+						{
+							"menuname": "评论审核",
+							"url": "afterplsh.html"
+						}
+					]
+				}, {
+					"menuid": "28",
+					"icon": "icon-sys",
+					"menuname": "年画周边",
+					"menus": [{
+							"menuname": "商品管理",
+							"url": "afternhzb.html"
+						},
+						{
+							"menuname": "新增订单",
+							"url": "afterddgl.html"
+						},
+						{
+							"menuname": "历史订单",
+							"url": "afterlsdd.html"
+						}
+					]
+				}]
+			};
+		</script>
+
+	</head>
+
+	<body class="easyui-layout">
+		<div region="south" split="true" style="height: 20px; background:url(../img/sence.jpg)"></div>
+		<div region="west" split="true" title="导航菜单" style="width:180px;" id="west">
+			<div class="easyui-accordion" fit="true" border="false">
+				<!--  导航内容 -->
+			</div>
+		</div>
+		<div id="mainPanle" region="center" style="overflow-y:hidden">
+			<div id="tabs" class="easyui-tabs" fit="true" border="false">
+				<div id="home">
+					<h1>欢迎来到大年画后台管理系统，请选择您要管理的内容！</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

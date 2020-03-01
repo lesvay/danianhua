@@ -1,0 +1,187 @@
+body {
+  font-family:"仿宋";
+  color: #403231;
+  background:url(../img/sence.png);
+  margin: 0;
+}
+
+.col-md-9 {
+	position:absolute;
+		width: 70%;
+		left: 0;
+}
+.ct-product{
+	width: 100%;
+	height: 100%;
+	margin: 0 0 0 10px;
+}
+.image{
+	width: 300px;
+	height: 300px;
+	border: 3px solid;
+	border-color: #da251c;
+	float: left;
+	margin: 50px 0 0 50px;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+}
+.inner{
+	width: 50%;
+	height: 300px;
+	border: 3px solid;
+	border-color: #da251c;
+	float: right;
+	right: 200px;
+	margin: 50px 0 0 50px;
+	text-align:center;
+}
+.ct-product-title{
+	margin: 15% auto 0 auto;
+}
+.ct-product-price{
+	margin: 10% auto 0 auto;
+	color: #da251c;
+}
+.ct-product-button{
+	margin: 5% 100px 0 -3%;
+	position: absolute;
+}
+.btn {
+  width: 60px;
+  height: 60px;
+  background:url(../img/shop.png) no-repeat;
+  background-size: 100%;}
+
+
+
+.col-md-3{
+	position:fixed;
+	right: 0;
+	background:url(../img/nhzbce1.png) no-repeat;
+	background-size:100% ;
+	width: 25%;
+	height: 100%;
+	margin: 0;
+  border: 0;
+  padding: 0;
+  overflow:auto;
+}
+.col-md-3::-webkit-scrollbar {display:none}
+.widget {
+  padding-bottom: 50px;
+  background: rgba(0,0,0,0);
+  padding: 0 60px 30px;
+}
+.ct-cart-empty {
+  padding-top: 20px;
+}
+.ct-cart {
+	height: 100%;
+  position: relative;
+
+}
+
+.ct-cart:before,
+.ct-cart:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.ct-cart .ct-cart-total:before {
+  content: '总价: ';
+  padding-right: 10px;
+}
+.ct-cart ol {
+  list-style: none;
+  padding: 20px 0;
+}
+.ct-cart ol li {
+  position: relative;
+   border-bottom: 1px solid #403231;
+  padding: 10px 0;
+}
+.ct-cart ol li:first-child {
+  border-top: 1px solid #403231;
+}
+  .ct-cart ol li button {
+  position: absolute;
+  top: 50%;
+  margin-top: -12.5px;
+  font-size: 15px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  color: #403231;/*小叉号*/
+}
+  .ct-cart ol li button:hover {
+    background: rgb(0,0,0,0);/*叉号点了之后的○*/
+  	font-weight: bold;
+}
+  .ct-cart ol li .ct-cart-name {
+  display: block;
+    overflow:auto;
+}
+  .ct-cart ol li input,
+  .ct-cart ol li .ct-cart-price {/*分价*/
+  color: #403231;/*购物车价钱*/
+  border: none;
+}
+  .ct-cart ol li input {
+  width: 50px;
+
+}
+input{
+	background: rgba(0,0,0,0);
+}
+  .ct-cart ol li .ct-cart-price:after {
+  content: 'x';
+  padding: 0 10px;
+}
+  .ct-cart .ct-cart-checkout,
+  .ct-cart .ct-cart-clear {
+  width: 45%;
+  padding: 10px 0;
+  border: none;
+  color: #fff;
+  -webkit-transition: background 0.2s ease;
+          transition: background 0.2s ease;
+}
+  .home:hover,.ct-cart .ct-cart-checkout:hover,
+  .ct-cart .ct-cart-clear:hover {
+  font-weight: bold;
+}/*清空结算点击*/
+  .ct-cart .ct-cart-checkout {
+  float: right;
+  background:url(../img/sence.jpg);
+}/*结算*/
+  .ct-cart .ct-cart-clear {
+  float: left;
+  background:url(../img/sence.jpg);
+}/*清空*/
+  .ct-cart-empty {/*购物车空*/
+  padding-top: 0;
+  bottom: auto;
+  top: -30px;
+  left: 1px;
+  text-align: left;
+}
+.home{
+	position: absolute;
+	top: 2%;
+	width:20%;
+	height: 2%;
+	right: 20%;
+  padding: 10px 0;
+  border: none;
+  color: #fff;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+	background:url(../img/sence.jpg);
+	display:flex;
+  justify-content:center;
+  align-items:center;
+}
